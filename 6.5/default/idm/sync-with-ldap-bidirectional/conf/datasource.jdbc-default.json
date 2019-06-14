@@ -1,6 +1,6 @@
 {
     "driverClass" : "org.postgresql.Driver",
-    "jdbcUrl" : "jdbc:postgresql://&{openidm.repo.host}:&{openidm.repo.port}/&{openidm.repo.schema}?useSSL=false",
+    "jdbcUrl" : "jdbc:postgresql://&{openidm.repo.host}:&{openidm.repo.port}/&{openidm.repo.schema}",
     "databaseName" : "&{openidm.repo.databaseName}",
     "username" : "&{openidm.repo.user}",
     "password" : "&{openidm.repo.password}",
